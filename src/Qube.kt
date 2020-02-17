@@ -1,0 +1,1 @@
+class Qube<T>(size: Int, init: (Int, Int) -> T): Matrix<T>(size, size, init)
